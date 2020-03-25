@@ -1,0 +1,14 @@
+---
+- name: Install httpd on Linux
+  hosts: nginx
+  gather_facts: no
+
+  tasks:
+    - name: install epel-release
+      yum: name=epel-release state=latest
+    - name: install httpd web server
+      yum: name=httpd state=present
+    - name: upload default index.html for web server
+      copy: src=index.html dest=/var/www/html/index.html
+    - name : start httpd server
+      service: name=httpd state=started
