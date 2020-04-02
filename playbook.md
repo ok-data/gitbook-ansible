@@ -2,7 +2,7 @@
 
 ## 작성하기
 
-nginx 웹 서버 설치 예시 :
+nginx 웹 서버 설치 예시 `nginx_install.yaml` :
 
 ```yaml
 ---
