@@ -5,7 +5,8 @@
         "expandable-chapters-small",
         "back-to-top-button",
         "anchor-navigation-ex",
-        "search-pro"
+        "search-pro",
+		"numbered-headings"
     ],
     "pluginsConfig": {
         "ga": {
