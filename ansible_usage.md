@@ -169,3 +169,7 @@ ansible all -m copy -a "src=index.html dest=/var/www/html/index.html"
 ansible all -m service -a "name=httpd state=started"
 ```
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNzQwMzU0NDY2XX0=
+-->
